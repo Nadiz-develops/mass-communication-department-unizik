@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keyword" content="MAC portal">
+  <title>Mass communication portal</title>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <link rel="icon" href="IMAGES\download.png"/>
+</head>
+<body>
+  <header>
+    <div class="containe">
+      <img src="IMAGES\download.png" alt="html" height="50px">
+      <H2><span class="highlight">MAC DEPARTMENT</span> UNIZIK</H2>
+      <nav class="main.nav">
+        <ul>
+          
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="online.html">Online Registration</a></li>
+          <li><a href="newsletter.html">Newsletter</a></li>
+          <li><a href="about.html">About developer</a></li>
+          <li><a href="feed.html">feedback</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="intro">
+    <div class="container">
+      <h1><span class="highlight">Departmental Online Clearance</span></h1>
+      <p>Please fill in your details to complete your departmental clearance.</p>
+    </div>
+  </section>
+  
+  <form id="signup">
+    <fieldset class="personal-info">
+        <legend><h3>Personal Information</h3></legend>
+        <br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" required>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" required>
+        <label for="middlename">Middle Name:</label>
+        <input type="text" id="middlename" required>
+        <br><br>
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" required>
+        <br><br>
+        <label for="gender">Gender:</label>
+        <label><input type="radio" id="male" name="gender" required> Male</label>
+        <label><input type="radio" id="female" name="gender" required> Female</label>
+        <small></small>
+      </fieldset>
+      <br>
+           <fieldset class="address">
+            <legend><h3>Residential Address</h3></legend>
+            <br>
+            <label for="state">State:</label>
+            <select id="state" required>
+            <option value="">Select a state</option>
+            <!-- list of states -->
+            <option>ABIA</option>
+            <option>Adamawa</option>
+        <option>AKWAIBOM</option>
+            <option>ANAMBRA</option>
+                <option>BAUCHI</option>
+                <option>BAYELSA</option>
+                <option>BENUE</option>
+                <option>BORNO</option>
+                <option>CROSSRIVER</option>
+                <option>DELTA</option>
+                <option>EBONYI</option>
+                <option>EDO</option>
+                <option>ENUGU</option>
+                <option>GOMBE</option>
+                <option>IMO</option>
+                <option>JIGAWA</option>
+                <option>KADUNA</option>
+                <option>KANO</option>
+                <option>KASTINA</option>
+                <option>LAGOS</option>
+                <option>NASARAWA</option>
+                <option>NIGER</option>
+                <option>ONDO</option>
+                <option>PLATEAU</option>
+                <option>RIVERS</option>
+                <option>SOKOTO</option>
+                <option>TARABA</option>
+                <option>YOBE</option>
+                <option>ZAMFARA</option> 
+                <option>FCT</option>
+            </select>
+
+            <label for="lga">LGA:</label>
+            <input type="text" id="lga" required>
+            <small></small>
+            <br><br>
+            <label for="town">Town:</label>
+            <input type="text" id="town" required>
+         </fieldset>
+            <fieldset class="parent-info">
+              <legend><h3>Parent's Information</h3></legend>
+              <br>
+              <label for="title">Title:</label>
+              <select id="title" required>
+                <option value="">Select a title</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+                <option value="Ms">Ms</option>
+                <option value="Dr">Dr</option>
+              </select>
+              <label for="pname">Parent's Name:</label>
+              <input type="text" id="pname" required>
+              <br><br>
+              <label for="occupation">Occupation:</label>
+              <input type="text" id="occupation" required>
+            </fieldset>
+            <fieldset class="academic-info">
+              <legend><h3>Academic Level</h3></legend>
+              <br>
+              <label for="level">Choose your level:</label>
+              <select id="level" required>
+                <option value="">Choose your level</option>
+                <option value="100L">100L</option>
+                <option value="200L">200L</option>
+                <option value="300L">300L</option>
+                <option value="400L">400L</option>
+                <option value="other">Other</option>
+              </select>
+              <label for="other-level" class="sr-only">Specify other level:</label>
+              <input type="text" id="other-level" class="other-level-input">
+            </fieldset>
+            <section class="selfie">
+              <h3>Upload your selfie:</h3>
+              <label for="selfie">
+                <input type="file" id="selfie" accept="image/*" capture="user" required aria-label="Upload your selfie">
+                <span class="selfie-label">Choose a file</span>
+              </label>
+              <div class="selfie-preview" height="50px"></div>
+            </section>
+            <br>
+            <button type="submit">Submit</button>
+            </form>
+            <br>
+            <footer>
+              <br> Mac Dept,Copyright &copy;2024
+            </footer>
+            <script type="text/javascript" src="online.js"></script>
+          </body>
+          </html>
+          
+            
+            
+            
+            
+  
+  
