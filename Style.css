@@ -309,13 +309,13 @@ background-color: #cc2323;
       
       @media(max-width:768px)
           header footer
-          .main-nav .box
-          .intro .highlight 
+          .main-nav .box  .box
+          .intro .highlight
           .highlight  .bio
           .newsletter .box img 
           .registe .register 
           .swap .main-nav li 
-          .ima .hb {
+          .ima .hb .feedback-container{
               float:none;
               width:100%;
               text-align:center;
